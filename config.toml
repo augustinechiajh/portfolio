@@ -1,0 +1,5 @@
+baseURL = 'https://augustinechiajh.github.io/resume-site/'
+languageCode = 'en-us'
+title = 'Your Name - Resume'
+theme = 'PaperMod'
+publishDir = 'public
