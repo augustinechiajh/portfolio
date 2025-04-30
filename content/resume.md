@@ -1,5 +1,6 @@
 ---
 title: "Resume"
+url: "/resume"
 ---
 
 ## Experience

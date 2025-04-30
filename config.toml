@@ -3,3 +3,8 @@ languageCode = 'en-us'
 title = 'Your Name - Resume'
 theme = 'PaperMod'
 publishDir = 'public'
+
+[[menu.main]]
+  name = "Resume"
+  url = "/resume"
+  weight = 1
