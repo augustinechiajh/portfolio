@@ -27,6 +27,7 @@ date_format = "Jan 2006"
   date_start = "2025-03-20"
   date_end = "2027-03-20"
   description = """Validated ability to define Infrastructure as Code (IaC) using Terraform and implement best practices in provisioning, compliance, and deployment automation."""
+  image = "media/icons/HCTA-003.png"
 
 [[item]]
   title = "AWS Certified Developer - Associate"
@@ -37,6 +38,7 @@ date_format = "Jan 2006"
   date_start = "2024-12-19"
   date_end = "2027-12-19"
   description = """Certified in developing, deploying, and debugging cloud-based applications using AWS services and CI/CD pipelines."""
+  image = "media/icons/AWSDev.png"
   
 [[item]]
   title = "AWS Certified Solutions Architect - Associate"
@@ -47,6 +49,7 @@ date_format = "Jan 2006"
   date_start = "2024-06-21"
   date_end = "2027-06-21"
   description = """Demonstrated expertise in designing scalable, fault-tolerant, and cost-optimized architectures on AWS."""
+  image = "media/icons/AWSSA.png"
   
 [[item]]
   title = "ITIL 4 Foundation Level"
