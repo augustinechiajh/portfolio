@@ -15,26 +15,32 @@
     <div class="card experience course shadow-sm rounded-0 border-0">
       <div class="card-body">
         {{- with .url -}}<a href="{{.}}" target="_blank" rel="noopener">{{- end -}}
-          <h4 class="card-title exp-title text-muted my-0">
+
+          <div class="accomplishment-header">
             {{ with .image }}
               <img src="{{ . | relURL }}" class="accomplishment-icon" alt="Icon">
             {{ end }}
-            {{.title | markdownify | emojify}}
-          </h4>
-          {{- with .url -}}</a>{{- end -}}
+            <div>
+              <h4 class="card-title exp-title text-muted my-0">
+              {{.title | markdownify | emojify}}
+              </h4>
+              <div class="card-subtitle my-0 article-metadata">
+                {{- with .organization_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end -}}
+                  {{- .organization | markdownify | emojify -}}
+                  {{- with .organization_url}}</a>{{end -}}
+      
+                <span class="middot-divider"></span>
+      
+                {{ (time .date_start).Format ($page.Params.date_format | default "Jan 2006") }}
+                {{ if .date_end}}
+                – {{ (time .date_end).Format ($page.Params.date_format | default "Jan 2006") }}
+                {{end}}
+              </div>
+            </div> 
+          </div>
+          <!-- {{- with .url -}}</a>{{- end -}} -->
 
-        <div class="card-subtitle my-0 article-metadata">
-          {{- with .organization_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end -}}
-            {{- .organization | markdownify | emojify -}}
-            {{- with .organization_url}}</a>{{end -}}
-
-          <span class="middot-divider"></span>
-
-          {{ (time .date_start).Format ($page.Params.date_format | default "Jan 2006") }}
-          {{ if .date_end}}
-          – {{ (time .date_end).Format ($page.Params.date_format | default "Jan 2006") }}
-          {{end}}
-        </div>
+        
 
         {{with .description}}
         <div class="card-text">{{. | markdownify | emojify}}</div>

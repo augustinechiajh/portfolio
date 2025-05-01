@@ -44,6 +44,7 @@
       "ul"
     ],
     "classes": [
+      "accomplishment-header",
       "accomplishment-icon",
       "active",
       "ai",

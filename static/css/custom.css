@@ -1,0 +1,31 @@
+/* Flex container for certificate title, company, and validity date */
+.accomplishment-header {
+  display: flex;
+  align-items: center;  /* Align items vertically in the center */
+  margin-bottom: 5px;  /* Space below the header */
+}
+
+.accomplishment-icon {
+  max-width: 30%;  /* Control the icon size */
+  height: auto;
+  display: inline-block;  /* Keeps the image inline with text */
+  margin-right: 12px;  /* Space between the image and the text */
+  vertical-align: middle;  /* Vertically align with text */
+}
+
+/* Ensure the title and subtitle are aligned in a row beside the image */
+.accomplishment-header div {
+  display: inline-block;
+  text-align: left; /* Align text to the left */
+}
+
+.card-title {
+  display: inline-block;  /* Keeps title inline with the image */
+  margin: 0;  /* Ensure no extra margin */
+}
+
+/* Style for subtitle and description */
+.card-subtitle, .card-text {
+  text-align: left;  /* Align subtitle and description to the left */
+  margin-left: 0;  /* Remove extra indentation */
+}
