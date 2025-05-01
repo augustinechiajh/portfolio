@@ -19,7 +19,8 @@
             {{ with .image }}
               <img src="{{ . | relURL }}" class="accomplishment-icon" alt="Icon">
             {{ end }}
-            {{.title | markdownify | emojify}}</h4>
+            {{.title | markdownify | emojify}}
+          </h4>
           {{- with .url -}}</a>{{- end -}}
 
         <div class="card-subtitle my-0 article-metadata">
