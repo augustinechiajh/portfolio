@@ -78,7 +78,7 @@ date_format = "Jan 2006"
   image = "media/icons/PSPOI.png"
 
 [[item]]
-  title = "Foundations in AI"
+  title = "AI for Industry - Foundations in AI"
   organization = "AI Singapore"
   organization_url = "https://aisingapore.org"
   date_start = "2021-05-01"
