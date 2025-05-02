@@ -29,3 +29,14 @@
   text-align: left;  /* Align subtitle and description to the left */
   margin-left: 0;  /* Remove extra indentation */
 }
+
+.exp-title {
+  display: block;
+  font-weight: 600;
+}
+
+.exp-company {
+  display: block;
+  margin-top: 2px;
+  font-size: 90%;
+}

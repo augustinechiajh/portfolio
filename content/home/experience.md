@@ -26,11 +26,11 @@ date_format = "Jan 2006"
   date_start = "2023-10-01"
   date_end = ""
   description = """
-  * Developed internal Backstage.io templates integrated with GitHub Actions CI/CD pipelines to automate AWS infrastructure deployments using CloudFormation and Terraform IaC, accelerating path to production of product teams, reducing complexity, manual errors, and minimizing deployment time.
-  * Drove AWS Security Lake as a central logging solution from POC to Production, obtaining approved from IT executive leadership and implementing it across AWS Organizations globally.
-  * Developed IaC templates for deploying AWS Resilience Hub, designing a GitHub Actions pipeline to conduct resiliency assessments for product teams and email them insightful reports, improving disaster recovery and business continuity while prioritizing serverless architectures through StepFunctions, CloudWatch and EventBridge.
-  * Built API integration between AWS and ServiceNow to automate account creation as part of the organization's Control Tower initiative, eventually reaching product implementation using services such as Lambda, API Gateway and Step Functions.
-  * IaC templates for Private Cloud: Leveraged Terraform and Ansible to automate provisioning of AWS Outposts resources (ECS, EMR), creating reusable templates for product teams to focus on application development instead of infrastructure provisioning.
+  * Automated AWS infrastructure deployments using Backstage.io templates, GitHub Actions, and IaC (CloudFormation, Terraform), accelerating production readiness for product teams.
+  * Led deployment of AWS Security Lake from POC to production across global AWS Organizations for centralized security logging, reducing logging costs by about 28%, gaining approval and recognition from the IT executive leadership.
+  * Built GitHub Actions-based pipelines to assess resilience via AWS Resilience Hub, improving DR posture and prioritizing serverless for product teams.
+  * Developed API workflows between AWS and ServiceNow to automate account provisioning via Lambda and Step Functions.
+  * Created reusable Terraform + Ansible templates to provision AWS Outposts resources (ECS, EMR), reducing manual setup.
   """
 
 [[experience]]
