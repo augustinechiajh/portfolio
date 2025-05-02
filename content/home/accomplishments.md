@@ -45,7 +45,7 @@ date_format = "Jan 2006"
   organization_url = "https://aws.amazon.com"
   certificate_url = "https://www.credly.com/badges/531f5f52-b71c-41bb-81b9-f619aa9cc74f"
   date_start = "2024-11-22"
-  description = """Demonstrated expertise in designing scalable, fault-tolerant, and cost-optimized architectures on AWS."""
+  description = """Gaining hands-on experience with AI tools like SageMaker, Amazon Transcribe Medical, Comprehend Medical and IoT, working with healthcare data standards such as FHIR and DICOM."""
   image = "media/icons/AWSHealth.png"
   
 [[item]]

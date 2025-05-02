@@ -42,6 +42,6 @@ hero_media = "user-2.jpg"
   label = "Contact me"
 
 +++
-## My name is **Michael Vahn** and I'm a **Professor** specializing in **Artificial Intelligence**
+## Hello! I'm **Augustine**, a **Cloud Automation Engineer** in the Healthcare industry
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+I design and automate scalable cloud systems that enhance security monitoring, improve resilience, and accelerate deployment times — while supporting compliance in regulated pharma environments.
