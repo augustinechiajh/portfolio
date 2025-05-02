@@ -44,4 +44,4 @@ hero_media = "user-2.jpg"
 +++
 ## Hello! I'm **Augustine**, a **Cloud Automation Engineer** in the Healthcare industry
 
-I design and automate scalable cloud systems that enhance security monitoring, improve resilience, and accelerate deployment times — while supporting compliance in regulated pharma environments.
+I design and automate scalable cloud systems that enhance security monitoring, improve resilience, and streamline path to production — while supporting compliance in regulated pharma environments.
