@@ -15,27 +15,55 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "chart-line"
+  icon = "cloud"
   icon_pack = "fas"
-  name = "Analysis"
+  name = "Cloud Automation"
   parcent = "90%"
   
 [[feature]]
-  icon = "user-secret"
-  icon_pack = "fas"
-  name = "Leadership"
-  parcent = "80%"  
-  
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  parcent = "70%"
-  
-[[feature]]
-  icon = "searchengin"
+  icon = "aws"
   icon_pack = "fab"
-  name = "Research"
-  parcent = "95%"
+  name = "AWS"
+  parcent = "90%"
+
+[[feature]]
+  name = "Terraform"
+  icon_svg = "terraform.svg"
+  parcent = "90%"
+
+[[feature]]
+  name = "Backstage.io"
+  icon_svg = "backstage.svg"
+  parcent = "90%"
+  
+[[feature]]
+  name = "GitHub"
+  icon_svg = "github.svg"
+  parcent = "80%"
+
+[[feature]]
+  name = "Python"
+  icon_svg = "python.svg"
+  parcent = "80%"
+
+[[feature]]
+  name = "Ansible"
+  icon_svg = "ansible.svg"
+  parcent = "70%"
+
+[[feature]]
+  name = "Bash"
+  icon_svg = "bash.svg"
+  parcent = "50%"
+
+[[feature]]
+  name = "Jira"
+  icon_svg = "jira.svg"
+  parcent = "90%"
+
+[[feature]]
+  name = "Confluence"
+  icon_svg = "confluence.svg"
+  parcent = "90%"
 
 +++

@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_start = "2023-10-01"
   date_end = ""
   description = """
-  * Automated AWS infrastructure deployments using Backstage.io templates, GitHub Actions, and IaC (CloudFormation, Terraform), accelerating production readiness for product teams.
+  * Automated AWS infrastructure deployments using Backstage.io templates, GitHub Actions, and IaC (CloudFormation/Terraform), accelerating production readiness for product teams.
   * Led deployment of AWS Security Lake from POC to production across global AWS Organizations for centralized security logging, reducing logging costs by about 28%, gaining approval and recognition from the IT executive leadership.
   * Built GitHub Actions-based pipelines to assess application resiliency via AWS Resilience Hub, improving disaster recovery posture and prioritizing serverless for product teams in preparation for chaos engineering and fault injection experiments.
   * Developed API workflows between AWS and ServiceNow to automate account provisioning via Lambda and Step Functions, as part of AWS Account Creation automation, reaching production and deployed globally.

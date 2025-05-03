@@ -40,3 +40,10 @@
   margin-top: 2px;
   font-size: 90%;
 }
+
+.featurette-icon-svg svg {
+  width: 3.5rem;
+  height: 3.5rem;
+  fill: currentColor; /* Matches icon color to text */
+  display: inline-block;
+}

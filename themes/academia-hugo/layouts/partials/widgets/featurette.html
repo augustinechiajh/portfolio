@@ -24,7 +24,15 @@
   <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
     <div class="position-relative py-2 shadow featurette-margin">
       <div class="progress-bar" style="width:{{ .parcent }}"></div>
-      {{ with .icon }}<div class="featurette-icon"><i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i></div>{{ end }}
+      {{ if and .icon_svg (ne .icon_svg "") }}
+        <div class="featurette-icon featurette-icon-svg">
+          {{ readFile (printf "static/icons/%s" .icon_svg) | safeHTML }}
+        </div>
+      {{ else if .icon }}
+        <div class="featurette-icon">
+          <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>
+        </div>
+      {{ end }}
       <h3>{{ .name | markdownify | emojify }}</h3>
       {{ with .parcent }}<p>{{ . }}</p>{{ end }}
     </div>
