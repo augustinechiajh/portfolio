@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "Skills"
-subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
+subtitle = ""
 
 # Showcase personal skills or business features.
 # 
@@ -65,5 +65,10 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   name = "Confluence"
   icon_svg = "confluence.svg"
   parcent = "90%"
+
+[[feature]]
+  name = "Docker"
+  icon_svg = "docker.svg"
+  parcent = "40%"
 
 +++
