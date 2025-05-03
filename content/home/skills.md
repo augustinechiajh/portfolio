@@ -59,7 +59,7 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
 [[feature]]
   name = "Jira"
   icon_svg = "jira.svg"
-  parcent = "90%"
+  parcent = "85%"
 
 [[feature]]
   name = "Confluence"
