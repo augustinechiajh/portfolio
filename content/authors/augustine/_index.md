@@ -7,7 +7,7 @@ authors:
 - augustine
 # resume download button
 btn:
-- url : "https://sourcethemes.com/academic/docs/install/"
+- url : "files/CV-ChiaJiHongAugustine.pdf"
   label : "Download Resume"
 
 # Is this the primary user of the site?
@@ -28,9 +28,11 @@ bio: My research interests include distributed robotics, mobile computing and pr
 display_education: true
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- User Experience
+- Consumer Tech (e.g. desktop builds, audio engineering)
+- Photography
+- Triathlon
+- Pasta
 
 education:
   courses:
