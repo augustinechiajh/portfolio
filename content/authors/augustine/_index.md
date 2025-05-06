@@ -4,7 +4,7 @@ name: Michael Vahn
 avatar_image: "user-full.png"
 # Username (this should match the folder name)
 authors:
-- admin
+- augustine
 # resume download button
 btn:
 - url : "https://sourcethemes.com/academic/docs/install/"
