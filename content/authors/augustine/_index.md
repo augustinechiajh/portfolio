@@ -2,9 +2,9 @@
 # Display name
 name: Augustine Chia
 avatar_image: "user-full.png"
-# Username (this should match the folder name)
-authors:
-- augustine
+# # Username (this should match the folder name)
+# authors:
+# - augustine
 # resume download button
 btn:
 - url : "files/CV-ChiaJiHongAugustine.pdf"
