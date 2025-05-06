@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Michael Vahn
+# name: Augustine Chia
 avatar_image: "user-full.png"
 # Username (this should match the folder name)
 authors:
@@ -13,13 +13,13 @@ btn:
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position
-role: Cloud Engineer
+# # Role/position
+# role: Cloud Engineer
 
-# Organizations/Affiliations
-organizations:
-- name: insert-company-here
-  url: ""
+# # Organizations/Affiliations
+# organizations:
+# - name: insert-company-here
+#   url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -42,9 +42,9 @@ education:
   - course: Double Major in Innovation & Design
     institution: National University of Singapore
     year: 2022
-  - course: NUS Overseas Colleges Programme
-    institution: KTH Royal Institute of Technology
-    year: 2021
+  # - course: NUS Overseas Colleges Programme
+  #   institution: KTH Royal Institute of Technology
+  #   year: 2021
 
 # Social/academia Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
