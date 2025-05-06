@@ -20,8 +20,6 @@
 <p>Person page path: {{ $person_page_path }}</p>
 <p>Person found: {{ if $person_page }}Yes{{ else }}No{{ end }}</p>
 <p>Person name: {{ $person.name }}</p>
-{{ $person_page := site.GetPage "/authors/augustine" }}
-{{ printf "%#v" $person_page }}
 
 <!-- About widget -->
 <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
