@@ -305,6 +305,7 @@
       "ul-interests",
       "universal-wrapper",
       "w-100",
+      "wg-about",
       "wg-accomplishments",
       "wg-contact",
       "wg-experience",
@@ -318,6 +319,7 @@
     ],
     "ids": [
       "Assets",
+      "about",
       "accomplishments",
       "code-highlighting",
       "color-themes",
