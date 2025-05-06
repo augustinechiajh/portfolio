@@ -25,7 +25,7 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Should the user's education and interests be displayed?
-display_education: false
+display_education: true
 
 interests:
 - Artificial Intelligence
