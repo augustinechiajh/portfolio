@@ -15,6 +15,13 @@
 {{end}}
 {{ $person := $person_page.Params }}
 
+<!-- DEBUG -->
+<p>Author slug: {{ $author }}</p>
+<p>Person page path: {{ $person_page_path }}</p>
+<p>Person found: {{ if $person_page }}Yes{{ else }}No{{ end }}</p>
+<p>Person name: {{ $person.name }}</p>
+
+
 <!-- About widget -->
 <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
   itemref="{{ if site.Params.email }}person-email{{ end }}{{ if site.Params.phone }} person-telephone{{ end }}{{ if site.Params.address}} person-address{{ end }}">
