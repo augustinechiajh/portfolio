@@ -9,7 +9,7 @@ authors:
 btn:
 - url : "files/CV-ChiaJiHongAugustine.pdf"
   label : "Download Resume"
-
+layout: single
 # Is this the primary user of the site?
 superuser: true
 

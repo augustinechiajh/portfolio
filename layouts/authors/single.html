@@ -1,0 +1,67 @@
+{{ define "main" }}
+<article class="author-profile container">
+  {{ $person := .Params }}
+
+  <div class="row align-items-center">
+    <div class="col-md-3 text-center mb-4">
+      {{ with $person.avatar_image }}
+        <img class="avatar rounded-circle img-fluid" src="{{ printf "/img/%s" . | relURL }}" alt="{{ $person.name }}">
+      {{ end }}
+    </div>
+    <div class="col-md-9">
+      <h1>{{ $person.name }}</h1>
+      {{ with $person.role }}
+        <h3 class="text-muted">{{ . }}</h3>
+      {{ end }}
+
+      {{ with $person.organizations }}
+        <p><strong>{{ (index . 0).name }}</strong></p>
+      {{ end }}
+
+      {{ with $person.bio }}
+        <p>{{ . }}</p>
+      {{ end }}
+
+      {{ with $person.btn }}
+        {{ range . }}
+          <a class="btn btn-primary" href="{{ .url | relURL }}" target="_blank">{{ .label }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
+  {{ if $person.interests }}
+    <hr>
+    <h3>Interests</h3>
+    <ul>
+      {{ range $person.interests }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  {{ end }}
+
+  {{ if $person.education }}
+    <hr>
+    <h3>Education</h3>
+    <ul>
+      {{ range $person.education.courses }}
+        <li>{{ .course }} — {{ .institution }} ({{ .year }})</li>
+      {{ end }}
+    </ul>
+  {{ end }}
+
+  {{ if $person.social }}
+    <hr>
+    <h3>Connect</h3>
+    <ul class="list-inline">
+      {{ range $person.social }}
+        <li class="list-inline-item">
+          <a href="{{ .link }}" target="_blank" rel="noopener">
+            <i class="{{ .icon_pack }} fa-{{ .icon }}"></i>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</article>
+{{ end }}
