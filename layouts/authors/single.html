@@ -1,67 +1,104 @@
 {{ define "main" }}
-<article class="author-profile container">
-  {{ $person := .Params }}
+{{ $author := "augustine-chia" }}
+{{ $person_page_path := (printf "/authors/%s" (urlize $author)) }}
+{{ $person_page := site.GetPage $person_page_path }}
+{{ if not $person_page }}
+  {{ errorf "Could not find an author page at `%s`. Please check the value of `author` and create an associated author page if one does not already exist." $person_page_path }}
+{{ end }}
+{{ $person := $person_page.Params }}
+<!-- DEBUG
+<p>Author slug: {{ $author }}</p>
+<p>Person page path: {{ $person_page_path }}</p>
+<p>Person found: {{ if $person_page }}Yes{{ else }}No{{ end }}</p>
+<p>Person name: {{ $person.name }}</p> -->
 
-  <div class="row align-items-center">
-    <div class="col-md-3 text-center mb-4">
-      {{ with $person.avatar_image }}
-        <img class="avatar rounded-circle img-fluid" src="{{ printf "/img/%s" . | relURL }}" alt="{{ $person.name }}">
-      {{ end }}
-    </div>
-    <div class="col-md-9">
-      <h1>{{ $person.name }}</h1>
-      {{ with $person.role }}
-        <h3 class="text-muted">{{ . }}</h3>
-      {{ end }}
-
-      {{ with $person.organizations }}
-        <p><strong>{{ (index . 0).name }}</strong></p>
-      {{ end }}
-
-      {{ with $person.bio }}
-        <p>{{ . }}</p>
-      {{ end }}
-
-      {{ with $person.btn }}
-        {{ range . }}
-          <a class="btn btn-primary" href="{{ .url | relURL }}" target="_blank">{{ .label }}</a>
+<!-- About widget -->
+<section id="profile-page" class="pt-5">
+  <div class="container">
+    <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
+    itemref="{{ if site.Params.email }}person-email{{ end }}{{ if site.Params.phone }} person-telephone{{ end }}{{ if site.Params.address}} person-address{{ end }}">
+    <div class="col-lg-5">
+        <div id="profile">
+        {{ $avatar_image := $person_page.Params.avatar_image }}
+        <img class="img-fluid" src="{{ printf "img/%s" $avatar_image | relURL }}" itemprop="image" alt="Avatar">
+        </div>
+        <ul class="network-icon bg-white mx-2 py-2 text-center" aria-hidden="true">
+        {{ range $person.social }}
+            {{ $pack := or .icon_pack "fas" }}
+            {{ $pack_prefix := (cond (in (slice "fab" "fas" "far" "fal") $pack) "fa" $pack) }}
+            {{ $link := .link }}
+            {{ $scheme := (urls.Parse $link).Scheme }}
+            {{ $target := "" }}
+            {{ if not $scheme }}
+            {{ $link = .link | relLangURL }}
+            {{ else if in (slice "http" "https") $scheme }}
+            {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+            {{ end }}
+            <li class="mx-3">
+            <a itemprop="sameAs" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+                <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>
+            </a>
+            </li>
         {{ end }}
-      {{ end }}
+        </ul>
+    </div>
+    <div class="col-lg-7" itemprop="description">
+        <div class="portrait-title">
+        <h2 itemprop="name">{{ $person.name }}</h2>
+        {{ with $person.role }}
+            <h3 class="d-inline-block" itemprop="jobTitle">{{ . | markdownify | emojify }},</h3>
+        {{ end }}
+        {{ range $person.organizations }}
+            <h3 class="d-inline-block" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+            {{ with .url }}<a href="{{ . }}" target="_blank" itemprop="url" rel="noopener">{{ end }}
+                <span itemprop="name">{{ .name }}</span>
+            {{ if .url }}</a>{{ end }}
+            </h3>
+        {{ end }}
+        </div>
+
+        <link itemprop="url" href="{{ .Permalink }}">
+
+        {{ $person_page.Content }}
+
+        {{ range $person.btn }}
+        <a href="{{ .url }}" class="btn btn-primary btn-lg">
+            <i class="fas fa-download mr-2" aria-hidden="true"></i>{{ .label }}
+        </a>
+        {{ end }}
+
+        {{ if $person.display_education }}
+        <div class="row">
+        {{ with $person.education }}
+        <div class="col-md-7">
+            <h3>{{ i18n "education" | markdownify }}</h3>
+            <ul class="ul-edu fa-ul">
+            {{ range .courses }}
+            <li>
+                <i class="fa-li fas fa-graduation-cap"></i>
+                <div class="description">
+                <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+                <p class="institution">{{ .institution }}</p>
+                </div>
+            </li>
+            {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+        {{ with $person.interests }}
+        <div class="col-md-5">
+            <h3>{{ i18n "interests" | markdownify }}</h3>
+            <ul class="ul-interests">
+            {{ range . }}
+                <li>{{ . | markdownify | emojify }}</li>
+            {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+        </div>
+        {{ end }}
+    </div>
     </div>
   </div>
-
-  {{ if $person.interests }}
-    <hr>
-    <h3>Interests</h3>
-    <ul>
-      {{ range $person.interests }}
-        <li>{{ . }}</li>
-      {{ end }}
-    </ul>
-  {{ end }}
-
-  {{ if $person.education }}
-    <hr>
-    <h3>Education</h3>
-    <ul>
-      {{ range $person.education.courses }}
-        <li>{{ .course }} — {{ .institution }} ({{ .year }})</li>
-      {{ end }}
-    </ul>
-  {{ end }}
-
-  {{ if $person.social }}
-    <hr>
-    <h3>Connect</h3>
-    <ul class="list-inline">
-      {{ range $person.social }}
-        <li class="list-inline-item">
-          <a href="{{ .link }}" target="_blank" rel="noopener">
-            <i class="{{ .icon_pack }} fa-{{ .icon }}"></i>
-          </a>
-        </li>
-      {{ end }}
-    </ul>
-  {{ end }}
-</article>
-{{ end }}
+</section>
+    {{ end }}
