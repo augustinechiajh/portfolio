@@ -33,15 +33,15 @@ hero_media = "user-2.jpg"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-# [btn]
-#   url = "#skills"
-#   label = "Know more"
+[btn]
+  url = "./authors/augustine-chia"
+  label = "Know more"
   
-# [btn_alt]
-#   url = "#contact"
-#   label = "Resume"
+[btn_alt]
+  url = "#contact"
+  label = "Contact me"
 
 +++
-## Hello! I'm **Augustine**, a **Cloud Automation Engineer** in the Healthcare industry
+## Hello there! I'm **Augustine** and I love to build things that help people.
 
-I design and automate scalable cloud systems that enhance security monitoring, improve resilience, and streamline path to production — while supporting compliance in regulated pharma environments.
+As a Cloud Automation Engineer, I design and automate cloud systems that enhance security, reliability — all while ensuring compliance in a highly regulated pharma industry.
