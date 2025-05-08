@@ -7,7 +7,7 @@ authors:
 - augustine-chia
 # resume download button
 btn:
-- url : "files/CV-ChiaJiHongAugustine.pdf"
+- url : "files/cv-chia-ji-hong-augustine.pdf"
   label : "Download Resume"
 layout: single
 # Is this the primary user of the site?
