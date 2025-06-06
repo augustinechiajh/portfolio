@@ -18,16 +18,16 @@ role: Cloud Engineer
 
 # Organizations/Affiliations
 organizations:
-- name: insert-company-here
-  url: ""
+- name: MSD International GmbH (Singapore)
+  url: "https://www.msd.com/"
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# # Short bio (displayed in user profile at end of posts)
+# bio: My interests include distributed robotics, mobile computing and programmable matter.
 
 # Should the user's education and interests be displayed?
 display_education: true
 
-interests:
+interests: 
 - User Experience
 - Consumer Tech (e.g. desktop builds, audio engineering)
 - Photography
@@ -42,9 +42,6 @@ education:
   - course: Double Major in Innovation & Design
     institution: National University of Singapore
     year: 2022
-  # - course: NUS Overseas Colleges Programme
-  #   institution: KTH Royal Institute of Technology
-  #   year: 2021
 
 # Social/academia Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -78,7 +75,6 @@ user_groups:
 - User
 ---
 
-Nelson is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a cloud automation engineer passionate about building systems that work reliably, securely, and at scale. With experience deploying cloud infrastructure and automation in the pharmaceutical industry, I specialize in enhancing operational efficiency while ensuring regulatory compliance. My work spans across Infrastructure as Code, CI/CD pipelines, cloud security, and self-service developer tools.
 
-
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.
+I enjoy working at the intersection of design, engineering, and people — whether it's improving cloud tooling for teams or experimenting with UX ideas from my background in innovation and design.
