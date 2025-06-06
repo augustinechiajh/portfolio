@@ -62,13 +62,8 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-      # - name: List built authors pages
-      #   run: |
-      #     echo "Files in public/authors:"
-      #     find ./public/authors -type f
-
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
 
