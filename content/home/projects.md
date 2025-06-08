@@ -30,8 +30,8 @@ subtitle = "List of my personal and university projects"
     tag = "Deep Learning"
   
   [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
+    name = "Kubernetes"
+    tag = "Kubernetes"
   
   [[content.filter_button]]
     name = "Human"
