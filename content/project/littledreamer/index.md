@@ -13,7 +13,7 @@ image:
   focal_point: Smart
 ---
 ## Summary of Achievements
-LittleDreamer was the winner of the NUS Medical Grand Challenge (Medical Grand Challenge), awarded a S$20,000 top prize in the Nascent/Open category — the competition’s biggest award. Also won National runners-up amongst 57 other local entries for the James Dyson Awards, an award which focuses on engineering innovation.
+LittleDreamer was the winner of the NUS Medical Grand Challenge (Medical Grand Challenge), awarded a S$20,000 top prize in the Nascent/Open category — the competition’s biggest award. LittleDreamer also won National runners-up amongst 57 other local entries for the James Dyson Awards, an award which focuses on engineering innovation.
 
 This prototype was also featured in [The Straits Times](https://www.straitstimes.com/singapore/nus-budding-entrepreneurs-among-first-students-to-head-overseas-for-internships) and Chinese newspaper [联合早报](https://www.zaobao.com.sg/lifestyle/design-decor/story20210926-1197350), highlighting the project's societal impact and innovation. 
 
