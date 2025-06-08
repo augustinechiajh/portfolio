@@ -1,7 +1,7 @@
 ---
 # Display name
 name: Augustine Chia
-avatar_image: "user-full.png"
+# avatar_image: "user-full.png"
 # Username (this should match the folder name)
 authors:
 - augustine-chia
@@ -19,7 +19,7 @@ role: Cloud Engineer
 # Organizations/Affiliations
 organizations:
 - name: MSD International GmbH (Singapore)
-  url: "https://www.msd.com/"
+  url: ""
 
 # # Short bio (displayed in user profile at end of posts)
 # bio: My interests include distributed robotics, mobile computing and programmable matter.
@@ -75,6 +75,8 @@ user_groups:
 - User
 ---
 
-I am a cloud automation engineer passionate about building systems that work reliably, securely, and at scale. With experience deploying cloud infrastructure and automation in the pharmaceutical industry, I specialize in enhancing operational efficiency while ensuring regulatory compliance. My work spans across Infrastructure as Code, CI/CD pipelines, cloud security, and self-service developer tools.
+I am a cloud automation engineer passionate about using emerging technology to solve unmet user needs. My work spans across Infrastructure as Code, CI/CD pipelines, cloud security, and self-service developer tools.
 
-I enjoy working at the intersection of design, engineering, and people — whether it's improving cloud tooling for teams or experimenting with UX ideas from my background in innovation and design.
+I enjoy working at the intersection of design, engineering, and user experience — whether it's improving cloud tooling for teams or experimenting with UX ideas from my background in innovation and design.
+
+I spend most of my free time training for half-marathons and triathlons, recording music, and experimenting with travel photography/videography.
