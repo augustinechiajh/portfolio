@@ -1,16 +1,18 @@
 ---
 title: LittleDreamer – Award-Winning Medical Innovation (2020)
-summary: LittleDreamer won the prestigious S$20,000 1st prize at the NUS Medical Grand Challenge 2020, an annual student-led innovation competition. The project was featured in The Straits Times, underscoring its real-world healthcare impact.
+summary: LittleDreamer is an innovative approach towards personalized CPAP masks for children with Obstructive Sleep Apnea. Featured in The Straits Times, and 联合早报.
 tags:
 - Healthcare
+- Design Thinking
+- Innovation
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: 
 
-image:
-  caption: Photo by Toa Heftiba on Unsplash
-  focal_point: Smart
+# image:
+#   caption: Photo by Toa Heftiba on Unsplash
+#   focal_point: Smart
 ---
 ## Summary of Achievements
 LittleDreamer was the winner of the NUS Medical Grand Challenge (Medical Grand Challenge), awarded a S$20,000 top prize in the Nascent/Open category — the competition’s biggest award. LittleDreamer also won National runners-up amongst 57 other local entries for the James Dyson Awards, an award which focuses on engineering innovation.
