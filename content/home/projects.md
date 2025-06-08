@@ -25,9 +25,9 @@ subtitle = "List of my personal and university projects"
     name = "All"
     tag = "*"
   
-  [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
+  # [[content.filter_button]]
+  #   name = "Deep Learning"
+  #   tag = "Deep Learning"
   
   [[content.filter_button]]
     name = "Kubernetes"
@@ -37,9 +37,9 @@ subtitle = "List of my personal and university projects"
     name = "Healthcare"
     tag = "Healthcare"
   
-  [[content.filter_button]]
-    name = "Robotics"
-    tag = "robotics"
+  # [[content.filter_button]]
+  #   name = "Robotics"
+  #   tag = "robotics"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
