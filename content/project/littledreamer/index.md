@@ -13,11 +13,9 @@ image:
   focal_point: Smart
 ---
 ## Summary of Achievements
-Prize: Winner of the NUS Medical Grand Challenge (Medical Grand Challenge), awarded a S$20,000 top prize in the Nascent/Open category — the competition’s biggest award. Also won National runners-up amongst 57 other local entries for the James Dyson Awards, an award which focuses on engineering innovation.
+LittleDreamer was the winner of the NUS Medical Grand Challenge (Medical Grand Challenge), awarded a S$20,000 top prize in the Nascent/Open category — the competition’s biggest award. Also won National runners-up amongst 57 other local entries for the James Dyson Awards, an award which focuses on engineering innovation.
 
-Accolades: Featured in [The Straits Times](https://www.straitstimes.com/singapore/nus-budding-entrepreneurs-among-first-students-to-head-overseas-for-internships) (Singapore's National newspaper), highlighting the project's societal impact and innovation. 
-
-Result: A validated, impactful prototype that addressed a real clinical need, recognized at a national level and supported with significant funding to further develop the solution.
+This prototype was also featured in [The Straits Times](https://www.straitstimes.com/singapore/nus-budding-entrepreneurs-among-first-students-to-head-overseas-for-internships) (Singapore's National newspaper), highlighting the project's societal impact and innovation. 
 
 ---
 ## Challenges & Lessons Learned
@@ -33,7 +31,7 @@ Despite its early success, LittleDreamer was eventually discontinued due to seve
    - Automation pipelines to turn facial scans into custom mask designs.
 
 3. **Team Capacity & Technical Depth**
-Although institutional support was strong, the team lacked the specialization and resources to advance the solution to a scalable, clinically-deployable product.
+   Although institutional support was strong, the team lacked the specialization and resources to advance the solution to a scalable, clinically-deployable product.
 
 ---
 ## Reflections
