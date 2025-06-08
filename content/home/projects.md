@@ -34,8 +34,8 @@ subtitle = "List of my personal and university projects"
     tag = "Kubernetes"
   
   [[content.filter_button]]
-    name = "Human"
-    tag = "human"
+    name = "Healthcare"
+    tag = "Healthcare"
   
   [[content.filter_button]]
     name = "Robotics"
