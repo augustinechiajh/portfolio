@@ -1,7 +1,7 @@
 ---
 # Display name
 name: Augustine Chia
-# avatar_image: "user-full.png"
+avatar_image: "user-full.png"
 # Username (this should match the folder name)
 authors:
 - augustine-chia

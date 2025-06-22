@@ -5,10 +5,10 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Academia"
+title = "Augustine Chia"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "user-2.jpg"
+hero_media = "user-2.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -20,15 +20,22 @@ hero_media = "user-2.jpg"
   color = "#fff"
   
   # Background gradient.
-  # gradient_start = "#4bb4e3"
-  # gradient_end = "#fff"
+  # gradient_start = "#667eea"
+  # gradient_end = "#764ba2"
+  # text_color_light = true
+
+  # Warm gradient matching your generated images
+  # gradient_start = "#f7d794"
+  # gradient_end = "#f3a683"
+  
+  # text_color_light = false
   
   # Background image.
   # image = ""  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  text_color_light = false
+  # text_color_light = false
 
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
@@ -39,7 +46,7 @@ hero_media = "user-2.jpg"
   
 [btn_alt]
   url = "#contact"
-  label = "Contact me"
+  label = "Let's Connect"
 
 +++
 ## Hello there! I'm **Augustine** and I love to build things that help people.

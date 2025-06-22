@@ -26,10 +26,17 @@ date_format = "Jan 2006"
   date_start = "2023-10-01"
   date_end = ""
   description = """
-  * Automated AWS Resilience Hub deployments with one-click CloudFormation templates, triggered using Backstage.io UI templates,GitHub Actions, and Python/bash scripting for product teams to receive resiliency assessments, reducing deployment time by over 80%.
-  * Spearheaded the development and global implementation of AWS Security Lake as a central logging solution from PoC to production, introducing cost savings of about 28% and gaining recognition from CTO-level leadership.
+  * Deployed Amazon Security Lake across three AWS Organizations (2500+ accounts, six regions) as 
+  primary engineer, achieving 28% cost savings. Selected to present at executive CTO-level showcase. 
+  * Developed POC to use Agentic AI with Claude 3.7 Sonnet to generate SQL queries and insights from 
+  400+ accounts and 200+GB of log data via Athena and SQLAlchemy. 
+  * Built self-service AWS Resilience Hub automation using CloudFormation, Backstage.io, GitHub Actions, 
+  and Python/bash scripts — enabling users to generate Resilience Hub reports by filling a single form. 
+  * Refactored Lambda-based CloudFormation stacks to Step Functions for AWS Elastic Disaster Recovery 
+  deployment, improving rollback stability and reducing rollback time from 30 minutes to under 5.
   * Developed API integration between AWS and ServiceNow to automate AWS account creation, reducing deployment time by 60% for over 75 AWS accounts in production.
-  * Created reusable Terraform + Ansible templates to provision AWS Outposts resources (ECS, EMR), streamlining path to production for product teams running private/hybrid cloud resources.
+  * Developed Python automation tools using boto3 to enforce RDS compliance policies, automatically 
+  detecting, backing up, and cleaning non-compliant databases. 
   """
 
 [[experience]]
@@ -40,8 +47,10 @@ date_format = "Jan 2006"
   date_start = "2023-03-01"
   date_end = "2023-10-01"
   description = """
-  * Designed high-fidelity iOS and web prototypes using Figma and the organization's internal design system, to help digitalisation efforts at the manufacturing shopfloor, reducing time taken for technicians to complete manual tasks by 80%.
-  * Facilitated >3 design thinking workshops with around 30 participants per workshop, in domain areas of compliance, IT service support, and data engineering, leading to improve ways of working amongst IT and business teams.
+  * Designed high-fidelity iOS/web prototypes using Figma for manufacturing digitalization, reducing 
+  technician task time by 80%.
+  * Facilitated 3+ design thinking workshops with 30+ participants each, improving cross-functional 
+  collaboration between IT and business teams. 
   """
 
 [[experience]]
