@@ -16,7 +16,7 @@ baseURL = "https://gethugothemes.com/academia/site/"
 copyright = "Copyright &copy; {year}"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "#####" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+googleAnalytics = "G-DXE8F5P62F" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 
 ############################
 ## Advanced options below ##
