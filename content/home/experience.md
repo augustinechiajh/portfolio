@@ -28,13 +28,11 @@ date_format = "Jan 2006"
   description = """
   * Deployed Amazon Security Lake across three AWS Organizations (2500+ accounts, six regions) as 
   primary engineer, achieving 28% cost savings. Selected to present at executive CTO-level showcase. 
-  * Developed POC to use Agentic AI with Claude 3.7 Sonnet to generate SQL queries and insights from 
-  400+ accounts and 200+GB of log data via Athena and SQLAlchemy. 
+  * Developed AI solution for Security Lake queries, using Agentic AI with Claude 3.7 Sonnet to generate SQL queries and insights from 2500+ accounts and 100+TB of log data via Athena and SQLAlchemy. 
   * Built self-service AWS Resilience Hub automation using CloudFormation, Backstage.io, GitHub Actions, 
   and Python/bash scripts — enabling users to generate Resilience Hub reports by filling a single form. 
-  * Refactored Lambda-based CloudFormation stacks to Step Functions for AWS Elastic Disaster Recovery 
-  deployment, improving rollback stability and reducing rollback time from 30 minutes to under 5.
-  * Developed API integration between AWS and ServiceNow to automate AWS account creation, reducing deployment time by 60% for over 75 AWS accounts in production.
+  * Built POC for automated testing using Robot Framework and GitHub Actions for AWS DRS Agent validation, addressing gaps when vulnerability scans caused service outages by shutting down agents.
+  * Developed AWS-ServiceNow API integration automating account creation, reducing deployment time by 60% for 75+ production accounts.
   * Developed Python automation tools using boto3 to enforce RDS compliance policies, automatically 
   detecting, backing up, and cleaning non-compliant databases. 
   """
