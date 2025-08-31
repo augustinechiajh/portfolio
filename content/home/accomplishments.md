@@ -19,10 +19,19 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  title = "AWS Certified Solutions Architect - Professional"
+  organization = "AWS"
+  organization_url = "https://aws.amazon.com"
+  certificate_url = "https://www.credly.com/badges/f927ea8a-f173-462f-b24d-9df326d6e2da"
+  date_start = "2025-08-27"
+  date_end = "2028-08-27"
+  description = """Showcasing advanced skills in designing optimized AWS Cloud Solutions, optimizing security, cost, and performance."""
+  image = "media/icons/AWSSAPro.png"
+
+[[item]]
   title = "HashiCorp Certified: Terraform Associate (003)"
   organization = "HashiCorp"
   organization_url = "https://www.hashicorp.com"
-  # url = ""
   certificate_url = "https://www.credly.com/badges/a41a3731-355d-4180-8a32-66e7602818a3"
   date_start = "2025-03-20"
   date_end = "2027-03-20"
