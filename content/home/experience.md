@@ -26,15 +26,13 @@ date_format = "Jan 2006"
   date_start = "2023-10-01"
   date_end = ""
   description = """
-  * Deployed Amazon Security Lake across three AWS Organizations (2500+ accounts, six regions) as 
-  primary engineer, achieving 28% cost savings. Selected to present at executive CTO-level showcase. 
-  * Developed AI solution for Security Lake queries, using Agentic AI with Claude 3.7 Sonnet to generate SQL queries and insights from 2500+ accounts and 100+TB of log data via Athena and SQLAlchemy. 
-  * Built self-service AWS Resilience Hub automation using CloudFormation, Backstage.io, GitHub Actions, 
-  and Python/bash scripts — enabling users to generate Resilience Hub reports by filling a single form. 
+  * Architected and deployed Amazon Security Lake across three AWS Organizations (2500+ accounts, six regions) as primary engineer using Terraform and CI/CD pipelines, achieving 47% infrastructure cost reduction. Work featured in AWS re:Invent 2025 breakout session (SEC347). 
+  * Developed Agentic AI POC using LangChain and Claude 3.7 Sonnet to automate security analytics on 100+TB of OCSF data, reducing time-to-insight from a full-day to 30 minutes. 
+  * Built self-service AWS DRS automation using GitHub Actions and CloudFormation, with org-level IAM roles. Reduced multi-step deployments to single-form automation across 35 production accounts. 
   * Built POC for automated testing using Robot Framework and GitHub Actions for AWS DRS Agent validation, addressing gaps when vulnerability scans caused service outages by shutting down agents.
-  * Developed AWS-ServiceNow API integration automating account creation, reducing deployment time by 60% for 75+ production accounts.
-  * Developed Python automation tools using boto3 to enforce RDS compliance policies, automatically 
-  detecting, backing up, and cleaning non-compliant databases. 
+  * Resolved AWS-ServiceNow API integration issues for account provisioning, reducing deployment time by 60% for 75+ production accounts.
+  * Led 3-person team to migrate 13 Jenkins pipelines to GitHub Actions in 1 month, before company deprecation deadline. Onboarded junior team to Ansible and GitHub Actions within 4 days.
+  * Developed Python automation tools using boto3 to enforce RDS compliance policies, automatically detecting, backing up, and cleaning non-compliant databases. 
   """
 
 [[experience]]
