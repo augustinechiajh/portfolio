@@ -19,13 +19,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  title = "AWS Certified DevOps - Professional"
+  organization = "AWS"
+  organization_url = "https://aws.amazon.com"
+  certificate_url = "https://www.credly.com/badges/c4203b0a-6ffa-4836-a879-2771e1c409dd"
+  date_start = "2025-11-27"
+  date_end = "2028-11-27"
+  description = """Demonstrating expertise in automating CI/CD pipelines, managing infrastructure as code, and implementing secure, resilient systems on AWS."""
+  image = "media/icons/AWSDevOpsPro.png"
+
   title = "AWS Certified Solutions Architect - Professional"
   organization = "AWS"
   organization_url = "https://aws.amazon.com"
   certificate_url = "https://www.credly.com/badges/f927ea8a-f173-462f-b24d-9df326d6e2da"
   date_start = "2025-08-27"
   date_end = "2028-08-27"
-  description = """Showcasing advanced skills in designing optimized AWS Cloud Solutions, optimizing security, cost, and performance."""
+  description = """Showcasing expertise in designing scalable AWS architectures, optimizing existing solutions, and leading complex multi-account migrations."""
   image = "media/icons/AWSSAPro.png"
 
 [[item]]
