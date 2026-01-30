@@ -28,6 +28,7 @@ date_format = "Jan 2006"
   description = """Demonstrating expertise in automating CI/CD pipelines, managing infrastructure as code, and implementing secure, resilient systems on AWS."""
   image = "media/icons/AWSDevOpsPro.png"
 
+[[item]]
   title = "AWS Certified Solutions Architect - Professional"
   organization = "AWS"
   organization_url = "https://aws.amazon.com"
