@@ -26,13 +26,12 @@ date_format = "Jan 2006"
   date_start = "2023-10-01"
   date_end = ""
   description = """
-  * Architected and deployed Amazon Security Lake across three AWS Organizations (2500+ accounts, six regions) as primary engineer using Terraform and CI/CD pipelines, achieving 47% infrastructure cost reduction. Work featured in AWS re:Invent 2025 breakout session (SEC347). 
-  * Developed Agentic AI POC using LangChain and Claude 3.7 Sonnet to automate security analytics on 100+TB of OCSF data, reducing time-to-insight from a full-day to 30 minutes. 
-  * Built self-service AWS DRS automation using GitHub Actions and CloudFormation, with org-level IAM roles. Reduced multi-step deployments to single-form automation across 35 production accounts. 
-  * Built POC for automated testing using Robot Framework and GitHub Actions for AWS DRS Agent validation, addressing gaps when vulnerability scans caused service outages by shutting down agents.
-  * Resolved AWS-ServiceNow API integration issues for account provisioning, reducing deployment time by 60% for 75+ production accounts.
-  * Led 3-person team to migrate 13 Jenkins pipelines to GitHub Actions in 1 month, before company deprecation deadline. Onboarded junior team to Ansible and GitHub Actions within 4 days.
-  * Developed Python automation tools using boto3 to enforce RDS compliance policies, automatically detecting, backing up, and cleaning non-compliant databases. 
+  * Developed Terraform templates and CI/CD pipelines to deploy Amazon Security Lake across multiple AWS Organizations, regions, and accounts. The migration efforts resulted in 47% infrastructure cost reduction. Work was presented at AWS re:Invent 2025 (SEC347). 
+  * Developed Agentic AI POC using LangChain and Claude 3.7 Sonnet to automate security analytics on large volumes of OCSF data, reducing time-to-insight from a full-day to 30 minutes. 
+  * Automated DRS initialization across production accounts with internal developer portal to trigger GitHub Actions and deploy CloudFormation templates and Lambda functions into target accounts, eliminating manual per-account console configuration. 
+  * Developed Terraform scripts to provision AWS Outposts private cloud infrastructure (ECS, EMR, EC2), establishing IaC foundations for private cloud provisioning and deployments.
+  * Built self-service AWS Resilience Hub automation using Step Functions, Lambda, and CloudFormation, enabling application teams to receive AI-generated resiliency reports with zero ops involvement.
+  * Led and mentored a small team to complete a stalled Jenkins to GitHub Actions migration, delivering all complex pipelines within 1 month against a tight deadline.
   """
 
 [[experience]]
@@ -45,8 +44,7 @@ date_format = "Jan 2006"
   description = """
   * Designed high-fidelity iOS/web prototypes using Figma for manufacturing digitalization, reducing 
   technician task time by 80%.
-  * Facilitated 3+ design thinking workshops with 30+ participants each, improving cross-functional 
-  collaboration between IT and business teams. 
+  * Facilitated 3+ design thinking workshops with 30+ participants each, improving cross-functional collaboration between IT and business teams. 
   """
 
 [[experience]]
@@ -57,8 +55,8 @@ date_format = "Jan 2006"
   date_start = "2022-07-01"
   date_end = "2023-02-01"
   description = """
-  * Developed ServiceNow configurations for CMDB and HR application modules, and conducted peer/code reviews and unit tests across 5 ServiceNow application modules such as GSWD and StS workstreams.
-  * Deployed update sets from dev to test environments, and updated configuration specification documents for UAT IQs in compliance with SDLC
+  * Developed ServiceNow configurations for CMDB and HR application modules, and conducted peer/code reviews and unit tests across 5 ServiceNow application modules.
+  * Deployed update sets from development to test environments for multiple application modules in ServiceNow.
   """
 
 [[experience]]

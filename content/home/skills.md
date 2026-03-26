@@ -49,17 +49,17 @@ subtitle = ""
 [[feature]]
   name = "Ansible"
   icon_svg = "ansible.svg"
-  parcent = "70%"
+  parcent = "65%"
 
 [[feature]]
-  name = "Bash"
-  icon_svg = "bash.svg"
-  parcent = "50%"
+  name = "Docker"
+  icon_svg = "docker.svg"
+  parcent = "65%"
 
 [[feature]]
   name = "Jira"
   icon_svg = "jira.svg"
-  parcent = "85%"
+  parcent = "80%"
 
 [[feature]]
   name = "Confluence"
@@ -67,8 +67,8 @@ subtitle = ""
   parcent = "90%"
 
 [[feature]]
-  name = "Docker"
-  icon_svg = "docker.svg"
-  parcent = "40%"
+  name = "Bash"
+  icon_svg = "bash.svg"
+  parcent = "50%"
 
 +++
